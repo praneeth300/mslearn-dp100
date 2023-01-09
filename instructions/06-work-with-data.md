@@ -60,7 +60,7 @@ You can use the **Notebooks** page in Azure Machine Learning studio to run noteb
 In this exercise, the code to work with data is provided in a notebook.
 
 1. In the **Notebooks** page, browse to the **/users/*your-user-name*/mslearn-dp100** folder where you cloned the notebook repository, and open the **Work with Data** notebook.
-2. Then read the notes in the notebook, running each code cell in turn.
+2. If prompted, authenticate your notebook session with your Azure credentials. Then read the notes in the notebook, running each code cell in turn.
 
 ## Delete Azure resources
 
