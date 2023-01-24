@@ -27,6 +27,7 @@ To create the Azure Machine Learning workspace and a compute instance, you'll us
     ```bash
     rm -r mslearn-dp100 -f
     git clone https://github.com/MicrosoftLearning/mslearn-dp100 mslearn-dp100
+    ```
 
 1. After the repo has been cloned, enter the following commands to change to the folder for this lab and run the **setup.sh** script it contains:
     

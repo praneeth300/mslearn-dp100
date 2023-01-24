@@ -51,6 +51,7 @@ You can use the **Notebooks** page in Azure Machine Learning studio to run noteb
     ```bash
     git clone https://github.com/MicrosoftLearning/mslearn-dp100 mslearn-dp100
     ```
+
 1. When the command has completed, in the **Notebooks** pane, click **&#8635;** to refresh the view and verify that a new **/users/*your-user-name*/mslearn-dp100** folder has been created. This folder contains multiple **.ipynb** notebook files.
 
 > **Tip**: New to Python? Use the [Python cheat sheet](cheat-sheets/dp100-cheat-sheet-python.pdf) to understand the code.

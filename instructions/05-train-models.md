@@ -27,6 +27,7 @@ To create the Azure Machine Learning workspace and a compute instance, you'll us
     ```bash
     rm -r mslearn-dp100 -f
     git clone https://github.com/MicrosoftLearning/mslearn-dp100 mslearn-dp100
+    ```
 
 1. After the repo has been cloned, enter the following commands to change to the folder for this lab and run the **setup.sh** script it contains:
     
@@ -50,6 +51,7 @@ While you can use the **Notebooks** page in Azure Machine Learning studio to run
     ```bash
     git clone https://github.com/MicrosoftLearning/mslearn-dp100 mslearn-dp100
     ```
+
 1. When the command has completed, in the **Notebooks** pane, click **&#8635;** to refresh the view and verify that a new **/users/*your-user-name*/mslearn-dp100** folder has been created. This folder contains multiple **.ipynb** notebook files.
 
 > **Tip**: New to Python? Use the [Python cheat sheet](cheat-sheets/dp100-cheat-sheet-python.pdf) to understand the code.
