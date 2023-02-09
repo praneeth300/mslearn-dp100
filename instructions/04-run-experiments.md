@@ -58,18 +58,18 @@ You can use the **Notebooks** page in Azure Machine Learning studio to run noteb
 The Azure Machine Learning SDK is installed by default on your compute instance. Follow these steps to verify the installation.
 
 1. In the **Notebooks** page, create a new **Terminal** if it's not open anymore. This will open a new tab with a command shell.
-2. Enter the following command to verify that the Azure ML SDK is installed:
+2. Enter the following command to install the Azure ML SDK:
 
     ```bash
-    pip show azureml-sdk
+    pip install azureml-sdk
     ```
 
     Note the version of the SDK package installed.
 
-3. The **azureml-sdk** SDK package provides the most important libraries needed to work with Azure Machine Learning> However, there are some additional packages that contain other useful libraries not included in the main SDK package. Use the following command to verify that the **azureml-widgets** package, which contains libraries for displaying Azure Machine Learning information in notebooks, is also installed:
+3. The **azureml-sdk** SDK package provides the most important libraries needed to work with Azure Machine Learning> However, there are some additional packages that contain other useful libraries not included in the main SDK package. Use the following command to install the **azureml-widgets** package, which contains libraries for displaying Azure Machine Learning information in notebooks:
 
     ```bash
-    pip show azureml-widgets
+    pip install azureml-widgets
     ```
 
 4. Close the **Terminal** tab.
