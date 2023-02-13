@@ -197,15 +197,23 @@ Now you have an inference pipeline for real-time inferencing, which you can depl
 
 ## Test the web service
 
-Now you can test your deployed service from a client application - in this case, you'll use a notebook.
+Now you can test your deployed service from a client application - in this case, you'll use a notebook that you'll clone.
 
 1. On the **Endpoints** page, open the **designer-predict-diabetes** real-time endpoint.
-2. When the **designer-predict-diabetes** endpoint opens, on the **Consume** tab, note the **REST endpoint** and **Primary key** values. 
-3. With the **Consume** page for the **designer-predict-diabetes** service page open in your browser, open a new browser tab and open a second instance of Azure Machine Learning studio. Then in the new tab, view the **Notebooks** page.
-4. In the **Notebooks** page, under **My files**, browse to the **/users/*your-user-name*/mslearn-dp100** folder where you cloned the notebook repository, and open the **Get Designer Prediction** notebook.
-5. When the notebook has opened, ensure that the compute instance you created previously is selected in the **Compute** box, and that it has a status of **Running**.
-6. In the notebook, replace the **ENDPOINT** and **PRIMARY_KEY** placeholders with the values for your service, which you can copy from the **Consume** tab on the page for your endpoint. Select the eye icon to reveal the value of the key.
-7. Run the code cell and view the output returned by your web service.
+1. When the **designer-predict-diabetes** endpoint opens, on the **Consume** tab, note the **REST endpoint** and **Primary key** values. 
+1. With the **Consume** page for the **designer-predict-diabetes** service page open in your browser, open a new browser tab and open a second instance of Azure Machine Learning studio. Then in the new tab, view the **Notebooks** page.
+1. If a message describing new features is displayed, close it.
+1. Select **Terminal** or the **Open terminal** icon to open a terminal, and ensure that its **Compute** is set to your compute instance and that the current path is the **/users/your-user-name** folder.
+1. Enter the following command to clone a Git repository containing notebooks, data, and other files to your workspace:
+
+    ```bash
+    git clone https://github.com/MicrosoftLearning/mslearn-dp100 mslearn-dp100
+    ```
+
+1. In the **Notebooks** page, under **My files**, browse to the **/users/*your-user-name*/mslearn-dp100** folder where you cloned the notebook repository, and open the **Get Designer Prediction** notebook.
+1. When the notebook has opened, ensure that the compute instance you created previously is selected in the **Compute** box, and that it has a status of **Running**.
+1. In the notebook, replace the **ENDPOINT** and **PRIMARY_KEY** placeholders with the values for your service, which you can copy from the **Consume** tab on the page for your endpoint. Select the eye icon to reveal the value of the key.
+1. Run the code cell and view the output returned by your web service.
 
 ## Delete Azure resources
 

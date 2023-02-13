@@ -158,13 +158,21 @@ After you've used automated machine learning to train some models, you can deplo
 
 ## Test the deployed service
 
-Now that you've deployed a service, you can test it using some simple code.
+Now that you've deployed a service, you can test it using some simple code. First, you'll clone a notebook that includes the code to test your endpoint. 
 
 1. With the **Consume** page for the **auto-predict-diabetes** service page open in your browser, open a new browser tab and open a second instance of Azure Machine Learning studio. Then in the new tab, view the **Notebooks** page.
-2. In the **Notebooks** page, under **My files**, browse to the **/users/*your-user-name*/mslearn-dp100** folder where you cloned the notebook repository, and open the **Get AutoML Prediction** notebook.
-3. When the notebook has opened, ensure that the compute instance you created previously is selected in the **Compute** box, and that it has a status of **Running**.
-4. In the notebook, replace the **ENDPOINT** and **PRIMARY_KEY** placeholders with the values for your service, which you can copy from the **Consume** tab on the page for your endpoint.
-5. Run the code cell and view the output returned by your web service.
+1. If a message describing new features is displayed, close it.
+1. Select **Terminal** or the **Open terminal** icon to open a terminal, and ensure that its **Compute** is set to your compute instance and that the current path is the **/users/your-user-name** folder.
+1. Enter the following command to clone a Git repository containing notebooks, data, and other files to your workspace:
+
+    ```bash
+    git clone https://github.com/MicrosoftLearning/mslearn-dp100 mslearn-dp100
+    ```
+
+1. In the **Notebooks** page, under **My files**, browse to the **/users/*your-user-name*/mslearn-dp100** folder where you cloned the notebook repository, and open the **Get AutoML Prediction** notebook.
+1. When the notebook has opened, ensure that the compute instance you created previously is selected in the **Compute** box, and that it has a status of **Running**.
+1. In the notebook, replace the **ENDPOINT** and **PRIMARY_KEY** placeholders with the values for your service, which you can copy from the **Consume** tab on the page for your endpoint.
+1. Run the code cell and view the output returned by your web service.
 
 ## Delete Azure resources
 
