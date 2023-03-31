@@ -1,3 +1,7 @@
+> **Note**: 
+> This repository is archived as there now is a new version of these labs. The new labs that cover Azure Machine Learning v2 (instead of v1) can be found at: [https://github.com/MicrosoftLearning/mslearn-azure-ml](https://github.com/MicrosoftLearning/mslearn-azure-ml). 
+
+
 # Azure Machine Learning Lab Exercises
 
 This repository contains the hands-on lab exercises for Microsoft course [DP-100 *Designing and Implementing a Data Science Solution on Azure*](https://docs.microsoft.com/learn/certifications/courses/dp-100t01) and the equivalent [self-paced modules on Microsoft Learn](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/). The labs are designed to accompany the learning materials and enable you to practice using the technologies described them.
